@@ -45,6 +45,10 @@ table {
 
 /*reset code ends*/
 
+html {
+	background-color:#062537;
+}
+
 body {
 	background-color:black;
 	background:url("bgnew.jpg") no-repeat;
