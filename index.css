@@ -124,31 +124,31 @@ body {
 
 @media(min-width:2100px) {
 	.totalbox {
-		zoom:110%;
+		zoom:12.5%;
 	}	
 }  
 
 @media(min-width:2300px) {
 	.totalbox {
-		zoom:125%;
+		zoom:105%;
 	}	
 }  
 
 @media(min-width:2500px) {
 	.totalbox {
-		zoom:135%;
+		zoom:110%;
 	}	
 }  
 
 @media(min-width:2800px) {
 	.totalbox {
-		zoom:150%;
+		zoom:120%;
 	}	
 }  
 
 @media(min-width:3400px) {
 	.totalbox {
-		zoom:200%;
+		zoom:150%;
 	}	
 }  
 
