@@ -96,7 +96,7 @@ body {
 	color:rgba(210,255,251,.12);
 }
 
-/* @media (max-width:1800px) {
+@media (max-width:1800px) {
 	.totalbox {
 		zoom:80%;
 	}	
@@ -116,34 +116,33 @@ body {
 
 @media(min-width:2100px) {
 	.totalbox {
-		zoom:110%;
+		zoom:65%;
 	}	
 }  
 
 @media(min-width:2300px) {
 	.totalbox {
-		zoom:125%;
+		zoom:60%;
 	}	
 }  
 
 @media(min-width:2500px) {
 	.totalbox {
-		zoom:135%;
+		zoom:50%;
 	}	
 }  
 
 @media(min-width:2800px) {
 	.totalbox {
-		zoom:150%;
+		zoom:50%;
 	}	
 }  
 
 @media(min-width:3400px) {
 	.totalbox {
-		zoom:200%;
+		zoom:50%;
 	}	
-}  */
-
+}  
 h1 {
     font-family: 'Rajdhani', sans-serif;
     font-size:38px;
