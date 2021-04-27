@@ -577,3 +577,13 @@ a {
 		margin:120px 0 0 0;
 	}
 }  
+
+@media(max-width:1300px) {
+	.wholepage {
+		zoom:60%;
+		padding:10vh 0 0 0;
+	}
+	.bottomdisclaimer {
+		margin:150px 0 0 0;
+	}
+}
