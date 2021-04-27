@@ -49,12 +49,9 @@ table {
 body {
 	background-color:black;
 	background:url("bgnew.jpg") no-repeat;
-    height:100vh;
-	
-	
+    	height:100vh;
 	background-size:cover;
 	overflow:auto; 
-	
 }
 
 .wholepage {
