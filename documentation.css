@@ -96,15 +96,7 @@ body {
 	color:rgba(210,255,251,.12);
 }
 
-/* .bgimage {
-    background:url("bg.jpg") no-repeat;
-    height:110vh;
-	
-	background-size:cover;
-    /* background-size:cover; */
-} */
-
-@media (max-width:1800px) {
+/* @media (max-width:1800px) {
 	.totalbox {
 		zoom:80%;
 	}	
@@ -150,7 +142,7 @@ body {
 	.totalbox {
 		zoom:200%;
 	}	
-}  
+}  */
 
 h1 {
     font-family: 'Rajdhani', sans-serif;
