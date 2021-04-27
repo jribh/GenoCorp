@@ -130,16 +130,22 @@ body {
 
 @media(min-width:2300px) {
 	.totalbox {
-		zoom:125%;
+		zoom:105%;
 	}	
+	.middlebox {
+		zoom:105%;
+	}
 }  
 
 @media(min-width:2500px) {
 	.totalbox {
-		zoom:135%;
+		zoom:105%;
+	}	
+	.middlebox {
+		zoom:105%;
 	}	
 }  
-
+/* 
 @media(min-width:2800px) {
 	.totalbox {
 		zoom:150%;
@@ -150,7 +156,7 @@ body {
 	.totalbox {
 		zoom:200%;
 	}	
-}  
+}   */
 
 h1 {
     font-family: 'Rajdhani', sans-serif;
