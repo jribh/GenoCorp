@@ -50,7 +50,7 @@ body {
 	background:url("bgnew.jpg") no-repeat;
     height:100vh;
 	
-	
+	background-attachment:fixed;
 	background-size:cover;
 	overflow:auto; 
 	
