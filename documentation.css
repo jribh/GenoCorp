@@ -115,31 +115,31 @@ body {
 } 
 
 @media(min-width:2100px) {
-	.totalbox {
+	.middlebox {
 		zoom:65%;
 	}	
 }  
 
 @media(min-width:2300px) {
-	.totalbox {
+	.middlebox {
 		zoom:60%;
 	}	
 }  
 
 @media(min-width:2500px) {
-	.totalbox {
+	.middlebox {
 		zoom:50%;
 	}	
 }  
 
 @media(min-width:2800px) {
-	.totalbox {
+	.middlebox {
 		zoom:50%;
 	}	
 }  
 
 @media(min-width:3400px) {
-	.totalbox {
+	.middlebox {
 		zoom:50%;
 	}	
 }  
