@@ -23,6 +23,11 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html {
+	background-color:#062537;
+}
+
 body {
 	line-height: 1;
    
@@ -46,7 +51,7 @@ table {
 /*reset code ends*/
 
 html {
-	background-color:#062537;
+	background-color:#062537 !important;
 }
 
 body {
