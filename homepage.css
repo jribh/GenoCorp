@@ -1,0 +1,403 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+   
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*reset code ends*/
+
+body {
+    background:#051F30;
+}
+
+
+
+.flexbody {
+    margin:0px;
+    height:58vh;
+    display:flex;
+    align-items:flex-end;
+    justify-content:left;
+    padding:0 0 0 12em;
+}
+
+
+  .text-typing {
+    /* padding:20px 30px; */
+    color:white;
+    font-size:35px;
+    font-family:"Rajdhani", sans-serif;
+    
+  }
+  .text-typing .p1 {
+    margin:0px;
+    color:white;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing 0.75s steps(10,end) forwards,
+              blink 1s 1s;
+  }
+  @keyframes typing {
+    0% { width:0% }
+    100% { width:100% }
+  }
+  @keyframes blink {
+    0%,100% {
+      border-right:2px solid transparent;
+    }
+    /* 50% {
+      border-right:2px solid rgb(255, 255, 255);
+    } */
+  }
+
+
+
+  .text-typing .p2 {
+    color:white;
+    white-space:nowrap;
+    overflow:hidden;
+    animation:typing2 1.5s steps(8,end) forwards,
+              blink2 0.5s infinite;
+  }
+  @keyframes typing2 {
+    0% { width:0% }
+    25% { width:0% }
+    50% { width:0% }
+    75% { width:50% }
+    100% { width:100% }
+  }
+  @keyframes blink2 {
+    0%,100% {
+      border-right:1px solid transparent;
+    }
+    50% {
+      border-right:1px solid rgb(255, 255, 255);
+    }
+  }
+
+
+/*my code*/
+
+.p1 {
+    font-size:90px;
+    color:rgba(255,255,255,.3) !important;
+}
+
+.p2 {
+    font-size:180px;
+    font-weight:600;
+    margin:0.20em 0 0 0;
+    color:rgba(255,255,255,.9) !important;
+}
+
+
+.presetbutton {
+	
+	background-color:transparent;
+	color:rgba(242, 255, 254, 0.78);
+	font-family: 'Rajdhani', sans-serif;
+	font-weight:600;
+	font-size:30px;
+	border:2px solid #EA9A60;
+	padding:26px 40px;
+	text-align: center;
+	margin:2em 0 0 6.7em;
+    transition:color 200ms;
+	/* text-shadow: 0 0 9px rgba(142,240,255, .76); */
+}
+
+.presetbutton:hover {
+	/* background-color:rgba(242,255,254,0.15);
+	transition:0.2s; */
+	border-color:#EA9A60;
+    color:rgb(242, 255, 254);
+	color:white;
+    transition:200ms;
+}
+
+.presetbutton:active {
+	background-color:rgba(242,255,254,0.25);	
+	transition:0.1s;
+}
+
+.presetbutton:focus {
+	background-color:#EA9A60;
+	border-color:#EA9A60;
+	color:#051C2E;
+	font-weight:700;
+	transition:0.2s ease;
+}
+
+
+.bottomdisclaimer {
+	position:fixed;
+    bottom:10px;
+    width:100vw;
+    display:flex;
+	justify-content:space-between;
+	font-family: 'Rajdhani', sans-serif;
+	padding:0 40px 0 25px;
+    z-index: -1;
+}
+
+.disclaimerleft {
+	color:rgba(242,255,254,.29);
+	font-size:16px;
+	width:280px;
+}
+
+.version {
+	text-align:right;
+}
+
+#versionlightest {
+	font-size:18px;
+	font-weight:400;
+	color:rgba(242,255,254,0.2);
+	margin:-8px 0 10px 0;
+}
+
+#versionlight {
+	font-size:18px;
+	font-weight:400;
+	color:rgba(242,255,254,0.4);
+	margin:-8px 0 10px 0;
+}
+
+#versiondark {
+	font-size:20px;
+	font-weight:500;
+	color:rgba(242,255,254,0.85);
+	margin:-8px 0 10px 0;
+}
+
+.genocorp {
+	color:rgba(255,255,255,0.13);
+	padding:30px 125px 0 0;
+	font-size:26px;
+	font-weight:700;
+	letter-spacing: 14px;
+    text-align: center;
+}
+
+#down {
+    color:white;
+}
+
+.topnav {
+    position:fixed;
+    top:0;
+    width:100vw;
+    color:rgba(242, 255, 254, 0.80);
+	font-family: 'Rajdhani', sans-serif;
+	font-weight:600;
+	font-size:30px;
+    text-align: right;
+    padding:1.5em 2.5em 1.5em 0;
+    transition:background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.topnav a {
+    color:rgba(242, 255, 254, 0.80);
+    transition:color 200ms ease-in-out;
+}
+
+.topnav:hover a {
+    color:rgb(242, 255, 254);
+    transition:color 200ms ease-in-out;
+}
+
+.topnav:hover {
+    background-color:rgb(11, 41, 59);
+    color:rgb(242, 255, 254);
+    transition:background-color 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.titleandbutton {
+    height:100vh;
+}
+
+#personal {
+	font-size:34px;
+}
+
+#h220 {
+	font-size:20px;
+}
+
+.middlebox {
+	width:75vw;
+    margin:0 auto;
+    padding:5em 0 25em 0;
+
+}
+
+.middlebox1 {
+    width:20em;
+    margin:0 2em 0 0;
+}
+
+.middleboxthrees {
+    display:flex;
+    justify-content:space-between;
+}
+
+@media(max-width:1000px) {
+    .middleboxthrees {
+        flex-direction:column;
+        text-align:center;
+    }
+}
+
+.middlebox h2 {
+	padding:4px 0 30px 0;
+	margin:0;
+}
+
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size:38px;
+    color:rgba(241, 255, 254, 0.9);
+	font-weight:700;
+    margin:0 0 0.5em 0;
+}
+
+
+
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size:20px;
+    font-weight: 400;
+    padding:4px 0 45px 0;
+    color:rgba(242,255,254,.75);
+}
+
+h5 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size:38px;
+    font-weight: 400;
+    padding:4px 0 45px 0;
+    color:rgba(242,255,254,.5);
+}
+
+
+
+h3 {
+    font-size:20px;
+    font-weight:400;
+    margin:6px 0 5px 0;
+    color:rgba(242,255,254,.47);
+}
+
+h4 {
+    padding:15px 0 0 0;
+    color:rgb(236,255,254);
+}
+
+
+.off {
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s, opacity 0.5s linear;
+}
+
+.totalbox {
+	display: flex;
+	flex-direction:row;
+	padding:40px 0 25px 0 ;
+	/* background-color:rgba(255, 255, 255, 0.05); */
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(100px);
+	backdrop-filter: brightness(120%);
+	justify-content:space-between;
+}
+
+
+.h2nopad {
+	padding:0;
+	margin:0 0 40px 0;
+}
+
+::selection {
+	background-color:#793200;
+	color:white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logoimage {
+    position:absolute;
+    top:28vh;
+    right:8vw;
+    width:30vw;
+    padding:0 0 0 70vw;
+    z-index: -1;
+    opacity:90%;
+    animation:appearimage 1.5s forwards;
+}
+
+@keyframes appearimage {
+    0% { opacity:0% }
+    10% { opacity:0% }
+    20% { opacity:0% }
+    30% { opacity:0% }
+    40% { opacity:0% }
+    50% { opacity:0% }
+    60% { opacity:0% }
+    70% { opacity:0% }
+    80% { opacity:0% }
+    90% { opacity:50% }
+    100% { width:100% }
+}
+
+
+
+@media(max-width:1500px) {
+    .flexbody, .presetbutton {
+     zoom:65%;
+    } 
+    .flexbody {
+        height:70vh;
+    }
+ }
